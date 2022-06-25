@@ -17,3 +17,4 @@
     i.  curl http://MACHINE_IP/cookie-test
     ii. curl -H "Cookie: logged_in=true; admin=false" http://MACHINE_IP/cookie-test
     iii. curl -H "Cookie: logged_in=true; admin=true" http://MACHINE_IP/cookie-test
+    Online-Tools: https://crackstation.net/
